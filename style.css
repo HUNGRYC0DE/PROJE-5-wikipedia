@@ -261,11 +261,13 @@ input:focus {
 }
 
 .footerFinish {
+  display: flex;
   width: 100%;
   text-align: center;
-  margin: 30px 0;
-  padding: 0 0 30px 0;
+  justify-content: center;
+  padding: 30px 0 30px 0;
 }
+
 
 @media (max-width: 1200px) {
   .footer {
@@ -320,6 +322,11 @@ input:focus {
     background-repeat: no-repeat;
     background-position: left;
     text-decoration: none;
+  }
+}
+@media (max-width: 750px) {
+  .footerFinish p{
+    width: 80%;
   }
 }
 
