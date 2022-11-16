@@ -1,549 +1,400 @@
 .contaner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5px;
-    justify-content: center;
-    justify-items: center;
-
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+  justify-content: center;
+  justify-items: center;
 }
 
 .wiki {
-    color: transparent;
-    background-image: url(wiki.png);
-    background-position: center;
-    background-size: cover;
-    margin-top: 25px;
-    height: 50px;
-    width: 220px;
-    font-size: 0px;
+  color: transparent;
+  background-image: url(wiki.png);
+  background-position: center;
+  background-size: cover;
+  margin-top: 25px;
+  height: 50px;
+  width: 220px;
+  font-size: 0px;
 }
 
 .titel {
-    text-align: center;
-    font-size: 15px;
-    margin-top: 0;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0;
 }
 
 .inputTop {
-    margin: 0;
-    width: 350px;
-    height: 40px;
-    display: none;
-    flex-direction: row;
-    border: 1px black solid;
+  margin: 0;
+  width: 350px;
+  height: 40px;
+  display: none;
+  flex-direction: row;
+  border: 1px black solid;
 }
 
 .centerBox {
-    display: flex;
-    flex-direction: row;
-    background-image: url(Wikipedia-logo-v2.png);
-    background-repeat: no-repeat;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-position: 50%;
+  display: flex;
+  flex-direction: row;
+  background-image: url(Wikipedia-logo-v2.png);
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-position: 50%;
 }
 
 .centerBox div {
-    display: flex;
-    width: 50%;
-    height: 40px;
-    text-align: center;
-    margin: 7.5px 0;
+  display: flex;
+  width: 50%;
+  height: 40px;
+  text-align: center;
+  margin: 7.5px 0;
 }
 
 .centerBox a {
-    width: 140px;
-    height: auto;
-    justify-content: center;
-    text-decoration: none;
-    color: black;
+  width: 140px;
+  height: auto;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
 }
 
 .centerBox a:hover {
-    background-color: rgba(128, 128, 128, 0.205);
+  background-color: rgba(128, 128, 128, 0.205);
 }
 
-.lang1 {
-    justify-content: flex-end;
-}
-
-.lang2 {
-    justify-content: flex-start;
-}
-
-.lang3 {
-    justify-content: flex-end;
-    font-size: 15px;
-}
-
-.lang4 {
-    justify-content: flex-start;
-}
-
-.lang5 {
-    justify-content: flex-end;
-}
-
-.lang6 {
-    justify-content: flex-start;
-}
-
-.lang7 {
-    justify-content: flex-end;
-}
-
-.lang8 {
-    justify-content: flex-start;
-}
-
+.lang1,
+.lang3,
+.lang5,
+.lang7,
 .lang9 {
-    justify-content: flex-end;
-    font-size: 15px;
+  justify-content: flex-end;
 }
-
-.lang10 {
-    justify-content: flex-start;
-}
-
 .lang1 a {
-    margin-right: 75px;
+  margin-right: 75px;
 }
 
 .lang2 a {
-    margin-left: 75px;
+  margin-left: 75px;
 }
 
 .lang3 a {
-    margin-right: 110px;
-    height: 45px;
+  margin-right: 110px;
+  height: 45px;
 }
 
 .lang4 a {
-    margin-left: 110px;
+  margin-left: 110px;
 }
 
 .lang5 a {
-    margin-right: 120px;
+  margin-right: 120px;
 }
 
 .lang6 a {
-    margin-left: 120px;
+  margin-left: 120px;
 }
 
 .lang7 a {
-    margin-right: 100px;
+  margin-right: 100px;
 }
 
 .lang8 a {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
 .lang9 a {
-    margin-right: 50px;
-    height: 45px;
+  margin-right: 50px;
+  height: 45px;
 }
 
 .lang10 a {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .input {
-    margin-top: 50px;
-    width: 350px;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    border: 1px black solid;
+  margin-top: 50px;
+  width: 350px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border: 1px black solid;
 }
 
 input {
-    width: 100%;
-    background-color: #7b937b00;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    padding: 0 0 0 15px;
-    border: none;
+  width: 100%;
+  background-color: #7b937b00;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 0 0 0 15px;
+  border: none;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 .button {
-    width: 45.07px;
-    height: 40px;
-    border: none;
-    border-left: 1px solid black;
-    background-color: rgb(101, 119, 224);
-    background-image: url(serch.png);
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: center;
+  width: 45.07px;
+  height: 40px;
+  border: none;
+  border-left: 1px solid black;
+  background-color: rgb(101, 119, 224);
+  background-image: url(serch.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
 }
 
 .langButton button {
-    margin-top: 50px;
-    width: 250px;
-    height: 40px;
-    border: none;
-    background-color: rgba(115, 116, 124, 0.151);
+  margin-top: 50px;
+  width: 250px;
+  height: 40px;
+  border: none;
+  background-color: rgba(115, 116, 124, 0.151);
 }
 
 .button:hover {
-    background-color: blue;
+  background-color: blue;
 }
 
 .hrCenter {
-    max-width: 100%;
-    width: auto;
-    margin: 50px 20px 0 20px;
+  max-width: 100%;
+  width: auto;
+  margin: 50px 20px 0 20px;
 }
 
 .footer {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .sidBarFooter {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    padding: 50px 50px 25px 100px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 50px 50px 25px 100px;
 }
 
 .sidBarFooter a {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 .sidBarFooterTop {
-    margin-bottom: 25px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: 5px 10px;
-    padding: 8px 20px 8px 60px;
+  margin-bottom: 25px;
+  background-image: url(Wikinews-logo_sister.png);
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
+  padding: 8px 20px 8px 60px;
 }
 
 .sidBarFooterDown1 {
-    background-color: rgba(128, 128, 128, 0.103);
-    margin: 5px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: 5px 10px;
-    padding: 8px 20px 8px 60px;
+  background-color: rgba(128, 128, 128, 0.103);
+  margin: 5px;
+  background-image: url(Wikinews-logo_sister.png);
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
+  padding: 8px 20px 8px 60px;
 }
 
 .sidBarFooterDown1 p {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .sidBarFooterDown2 {
-    background-color: rgba(128, 128, 128, 0.103);
-    margin: 5px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: 5px 10px;
-    padding: 8px 20px 8px 60px;
-    display: none;
+  background-color: rgba(128, 128, 128, 0.103);
+  margin: 5px;
+  background-image: url(Wikinews-logo_sister.png);
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
+  padding: 8px 20px 8px 60px;
+  display: none;
 }
 
 .sidBarFooterDown2 p {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .project a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .project {
-    padding: 25px 0 0 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+  padding: 25px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .project div {
-    display: flex;
-    width: 23%;
-    height: 35px;
-    margin: 15px 0 15px 15px;
+  display: flex;
+  width: 23%;
+  height: 35px;
+  margin: 15px 0 15px 15px;
 }
 
 .project div:hover {
-    background-color: rgba(128, 128, 128, 0.11);
+  background-color: rgba(128, 128, 128, 0.11);
 }
 
-.project1 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project2 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project3 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project4 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project5 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project6 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project7 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project8 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project9 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project10 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project11 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.project12 {
-    padding: 5px 0 5px 60px;
-    background-image: url(Wikinews-logo_sister.png);
-    background-repeat: no-repeat;
-    background-position: left;
+.project div {
+  padding: 5px 0 5px 60px;
+  background-image: url(Wikinews-logo_sister.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 .hrfooter {
-    max-width: 100%;
-    width: auto;
-    margin: 10px 20px 0 20px;
+  max-width: 100%;
+  width: auto;
+  margin: 10px 20px 0 20px;
 }
 
 .footerFinish {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+  padding: 0 0 30px 0;
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .sidBarFooter {
+    padding: 25px;
     width: 100%;
     text-align: center;
-    margin: 30px 0;
-    padding: 0 0 30px 0;
+    align-items: center;
+  }
+
+  .project {
+    justify-content: center;
+  }
+
+  .project div {
+    width: 20%;
+    justify-items: center;
+    font-size: 14px;
+  }
+
+  .sidBarFooter {
+    padding: 0;
+  }
+
+  .sidBarFooterTop {
+    padding: 40px 0 0 0;
+    max-width: 500px;
+    background-position: 50% 10px;
+    margin: 0 15px;
+  }
+
+  .sidBarFooterDown1 {
+    display: none;
+  }
+
+  .sidBarFooterDown2 {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-image: none;
+    padding: 15px 25px;
+    margin: 20px 5px 5px 5px;
+  }
+
+  .sidBarFooterDown2 a {
+    min-width: 370px;
+    padding: 10px 0 10px 50px;
+    background-image: url(Wikinews-logo_sister.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-decoration: none;
+  }
 }
 
-@media(max-width: 1200px) {
-    .footer {
-        flex-direction: column;
-    }
+@media (max-width: 580px) {
+  .header {
+    background-image: url(Wikipedia-logo-v2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px;
+    background-size: 50px;
+    background-position: 10px 25px;
+    width: 250px;
+  }
 
-    .sidBarFooter {
-        padding: 25px;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
+  .inputTop {
+    display: flex;
+    width: 270px;
+  }
 
-    .project {
-        justify-content: center;
-    }
+  .input {
+    display: none;
+  }
 
-    .project div {
-        width: 20%;
-        justify-items: center;
-        font-size: 14px;
-    }
+  .wiki {
+    margin-top: 35px;
+    height: 20px;
+    width: 150px;
+  }
 
-    .sidBarFooter {
-        padding: 0;
-    }
+  .titel {
+    font-size: 10px;
+  }
 
-    .sidBarFooterTop {
-        padding: 40px 0 0 0;
-        max-width: 500px;
-        background-position: 50% 10px;
-        margin: 0 15px;
-    }
+  .centerBox {
+    background-image: none;
+    justify-content: center;
+  }
 
-    .sidBarFooterDown1 {
-        display: none;
-    }
+  .centerBox div {
+    justify-content: center;
+    width: 23%;
+    padding: 15px;
+  }
 
-    .sidBarFooterDown2 {
-        display: block;
-        justify-content: center;
-        text-align: center;
-        background-image: none;
-        padding: 15px 25px;
-        margin: 20px 5px 5px 5px;
-    }
+  .centerBox a {
+    margin: 0;
+  }
 
-    .sidBarFooterDown2 a {
-        min-width: 370px;
-        padding: 10px 0 10px 50px;
-        background-image: url(Wikinews-logo_sister.png);
-        background-repeat: no-repeat;
-        background-position: left;
-        text-decoration: none;
-    }
-}
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
 
-@media(max-width: 580px) {
-    .header {
-        background-image: url(Wikipedia-logo-v2.png);
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: 80px;
-        background-size: 50px;
-        background-position: 10px 25px;
-        width: 250px;
-    }
+  .sidBarFooter {
+    width: 100%;
+    padding: 0;
+  }
 
-    .inputTop {
-        display: flex;
-        width: 270px;
-    }
+  .project div {
+    width: 31%;
+    margin: 20px 10px;
+    padding: 0 0 10px 50px;
+    font-size: 12px;
+  }
 
-    .input {
-        display: none;
-    }
+  .sidBarFooterDown2 {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 5px;
+    padding: 20px;
+  }
 
-    .wiki {
-        margin-top: 35px;
-        height: 20px;
-        width: 150px;
-    }
-
-    .titel {
-        font-size: 10px;
-    }
-
-    .centerBox {
-        background-image: none;
-        justify-content: center;
-    }
-
-    .centerBox div {
-        justify-content: center;
-        width: 23%;
-        padding: 15px;
-    }
-
-    .lang1 a {
-        margin: 0 0 0 0;
-    }
-
-    .lang2 a {
-        margin: 0 0 0 0;
-    }
-
-    .lang3 a {
-        margin: 0 0 0 0;
-    }
-
-    .lang4 a {
-        margin: 0 0 0 0;
-    }
-
-    .lang5 a {
-        margin: 0 0 0 0;
-    }
-
-    .lang6 a {
-        margin: 0 0 0 0;
-    }
-
-    .lang7 a {
-        margin: 0 0 0 0;
-    }
-
-    .lang8 a {
-        margin: 0 0 0 0;
-    }
-
-    .lang9 a {
-        margin: 0 0 0 0;
-    }
-
-    .lang10 a {
-        margin: 0 0 0 0;
-    }
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .sidBarFooter {
-        width: 100%;
-        padding: 0;
-    }
-
-    .project div {
-        width: 31%;
-        margin: 20px 10px;
-        padding: 0 0 10px 50px;
-        font-size: 12px;
-    }
-
-    .sidBarFooterDown2 {
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        margin: 5px;
-        padding: 20px;
-    }
-
-    .sidBarFooterDown2 a {
-        width: 350px;
-        padding-right: 0;
-    }
+  .sidBarFooterDown2 a {
+    width: 350px;
+    padding-right: 0;
+  }
 }
