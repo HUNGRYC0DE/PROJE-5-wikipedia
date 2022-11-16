@@ -268,7 +268,6 @@ input:focus {
   padding: 30px 0 30px 0;
 }
 
-
 @media (max-width: 1200px) {
   .footer {
     flex-direction: column;
@@ -325,7 +324,7 @@ input:focus {
   }
 }
 @media (max-width: 750px) {
-  .footerFinish p{
+  .footerFinish p {
     width: 80%;
   }
 }
